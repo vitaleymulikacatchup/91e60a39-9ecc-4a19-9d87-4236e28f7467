@@ -53,9 +53,9 @@ export default function Home() {
           title="Tokenomics"
           description="Overview of the DogCoin economics."
           kpiItems={[
-            { value: "1M", description: "Total Supply", icon: "DollarSign" },
-            { value: "100K", description: "Market Cap", icon: "Graph" },
-            { value: "500K", description: "Liquidity", icon: "Lock" }
+            { value: "1M", description: "Total Supply", icon: DollarSign },
+            { value: "100K", description: "Market Cap", icon: Graph },
+            { value: "500K", description: "Liquidity", icon: Lock }
           ]}
         />
       </div>
