@@ -8,6 +8,7 @@ import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternT
 import YearRoadmapTimeline from '@/components/sections/layouts/roadmap/YearRoadmapTimeline';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { DollarSign, Graph, Lock } from 'lucide-react';
 
 export default function Home() {
   return (
