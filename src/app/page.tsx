@@ -8,7 +8,7 @@ import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternT
 import YearRoadmapTimeline from '@/components/sections/layouts/roadmap/YearRoadmapTimeline';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
-import { DollarSign, Graph, Lock } from 'lucide-react';
+import { DollarSign, Lock } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -55,7 +55,7 @@ export default function Home() {
           description="Overview of the DogCoin economics."
           kpiItems={[
             { value: "1M", description: "Total Supply", icon: DollarSign },
-            { value: "100K", description: "Market Cap", icon: Graph },
+            { value: "100K", description: "Market Cap", icon: Lock },
             { value: "500K", description: "Liquidity", icon: Lock }
           ]}
         />
