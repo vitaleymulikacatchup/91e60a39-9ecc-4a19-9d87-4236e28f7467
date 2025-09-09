@@ -42,9 +42,9 @@ export default function Home() {
         <HowToBuy3D
           title="How to Buy"
           steps={[
-            { title: "Step 1", description: "Get your crypto wallet ready!", position: "top", image: "/images/placeholder1.avif", isCenter: true },
-            { title: "Step 2", description: "Purchase DogCoin on our platform.", position: "middle", image: "/images/placeholder2.avif", isCenter: false },
-            { title: "Step 3", description: "Join our community chat!", position: "bottom", image: "/images/placeholder3.avif", isCenter: true }
+            { title: "Step 1", description: "Get your crypto wallet ready!", position: "left", image: "/images/placeholder1.avif", isCenter: true },
+            { title: "Step 2", description: "Purchase DogCoin on our platform.", position: "center", image: "/images/placeholder2.avif", isCenter: false },
+            { title: "Step 3", description: "Join our community chat!", position: "right", image: "/images/placeholder3.avif", isCenter: true }
           ]}
         />
       </div>
